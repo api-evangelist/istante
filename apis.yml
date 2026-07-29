@@ -1,8 +1,30 @@
 aid: istante
 name: Istante
-description: Istante is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Istante is an Italian technology company (VAT IT03635230547, based in
+  the Perugia area) that develops and operates Athena, a business-process-automation
+  platform built around a team of specialized AI assistants. Athena covers assistants
+  for communication routing and email classification, credit management and collections,
+  a 24/7 voice/phone assistant, quote and order processing, automated tender monitoring
+  and scoring, outbound lead engagement, contract and legal analysis, and HR and
+  onboarding. It is positioned to collaborate with staff rather than replace them,
+  keeping critical decisions under human oversight, and is offered on a fixed-cost
+  "Digital Working Units" (DWU) pricing model rather than variable token pricing. The
+  platform integrates across email, Microsoft Teams, WhatsApp, SMS, and phone, and
+  is presented as GDPR and EU AI Act compliant. Istante was surfaced as a portfolio
+  company of Canaan Partners and added to the API Evangelist network for enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/istante/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://istante.ai/logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +33,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Business Process Automation
+- Automation
+- Compliance
+- Italy
 apis: []
+common:
+- type: DomainSecurity
+  url: security/istante-domain-security.yml
+- type: Website
+  url: https://istante.ai
+- type: PrivacyPolicy
+  url: https://istante.ai/privacy-policy.html
+- type: Support
+  url: https://istante.ai/faq.html
+- type: LLMsTxt
+  url: llms/istante-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

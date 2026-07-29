@@ -1,0 +1,19 @@
+# Istante
+
+> Istante is an Italian technology company (VAT IT03635230547, Perugia area) that develops and operates Athena, a business-process-automation platform built around a team of specialized AI assistants. Athena spans assistants for communication routing and email classification, credit management and collections, a 24/7 voice/phone assistant, quote and order processing, automated tender monitoring and scoring, outbound lead engagement, contract and legal analysis, and HR and onboarding. It is offered on a fixed-cost "Digital Working Units" (DWU) pricing model, integrates across email, Microsoft Teams, WhatsApp, SMS, and phone, keeps critical decisions under human oversight, and is presented as GDPR and EU AI Act compliant.
+
+## Company
+
+- [Website (Athena by Istante)](https://istante.ai): Product homepage for the Athena AI-assistants platform.
+- [ROI Calculator](https://istante.ai/roi.html): Estimate time savings and return on investment.
+- [FAQ](https://istante.ai/faq.html): Frequently asked questions about the platform.
+- [Privacy Policy](https://istante.ai/privacy-policy.html): Data-protection and privacy statement.
+
+## APIs
+
+> No public API, developer documentation, OpenAPI specification, or SDKs are published by Istante at this time. This profile tracks the company for the API Evangelist network.
+
+## Catalog
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/istante/refs/heads/main/apis.yml): API Evangelist network profile for Istante.
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/istante/refs/heads/main/security/istante-domain-security.yml): TLS/HSTS/DNS security posture of istante.ai.
